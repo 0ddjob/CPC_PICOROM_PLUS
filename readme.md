@@ -16,7 +16,7 @@ Please refer to Matt's page for firmware & instructions on how to initialise the
 ## Design
 Designed using Kicad.<br>
 Files, including Gerbers for production, can be found [here.](/Hardware/)<br>
-Centronics connector [Kicad symbol.](/Hardware/Centronics_Connector/)<br>
+Centronics connector [Kicad symbol.](/Hardware/Centronics_Connector/)  I also made a custom version with signal names on the pins (see schematic image below).<br>
 Raspberry Pi Pico [Kicad symbol.](https://github.com/ncarandini/KiCad-RP-Pico)<br>
 
 ![Schematic](/CPC_PICOROM_PLUS_Schematic.png)
