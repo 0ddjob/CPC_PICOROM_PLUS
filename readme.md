@@ -15,7 +15,7 @@ Please refer to Matt's page for firmware & instructions on how to initialise the
 
 ## Design
 Designed using Kicad.<br>
-Files, including Gerbers for production, can be found [here.](/Hardware/CPC_PICOROM_PLUS/)<br>
+Files, including Gerbers for production, can be found [here.](/Hardware/)<br>
 Centronics connector [Kicad symbol.](/Hardware/Centronics_Connector/)<br>
 Raspberry Pi Pico [Kicad symbol.](https://github.com/ncarandini/KiCad-RP-Pico)<br>
 
