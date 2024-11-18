@@ -14,8 +14,10 @@ Please refer to Matt's page for firmware & instructions on how to initialise the
 - 5 x 1N4148 diodes
 
 ## Design
-Designed using Kicad.  Files, including Gerbers for production, can be found [here.](/Hardware/CPC_PICOROM_PLUS/)<br>
-Note that I used this [symbol](/Hardware/Centronics_Connector/) for the Centronics connector.<br>
+Designed using Kicad.<br>
+Files, including Gerbers for production, can be found [here.](/Hardware/CPC_PICOROM_PLUS/)<br>
+Centronics connector [Kicad symbol.](/Hardware/Centronics_Connector/)<br>
+Raspberry Pi Pico [Kicad symbol.](https://github.com/ncarandini/KiCad-RP-Pico)<br>
 
 ![Schematic](/CPC_PICOROM_PLUS_Schematic.png)
 
