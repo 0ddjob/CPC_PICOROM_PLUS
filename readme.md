@@ -3,7 +3,8 @@ Based on [Matt Callow's](https://github.com/mattcallow/CPC_PICOROM) original des
 
 ## Current Status: UNTESTED!
 - 18-Nov-2024: initial design done
-- 20-Nov-2024: test PCBs on their way from PCBWAY (prob. about two weeks)
+- 20-Nov-2024: test PCBs on their way from PCBWAY
+- 3-Dec-2024: PCBs arrived (eight working days)
 
 ## Instructions
 Please refer to Matt's page for firmware & instructions on how to initialise the Pico & transfer/use Amstrad CPC ROMs.
