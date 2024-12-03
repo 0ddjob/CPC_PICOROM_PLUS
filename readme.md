@@ -25,3 +25,5 @@ Raspberry Pi Pico [Kicad symbol.](https://github.com/ncarandini/KiCad-RP-Pico)<b
 ![Schematic](/CPC_PICOROM_PLUS_Schematic.png)
 
 ![PCB layout](/CPC_PICOROM_PLUS_PCB.png)
+
+![Build PCB](/CPC_PICOROM_PLUS_built.jpg)
