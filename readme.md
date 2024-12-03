@@ -7,7 +7,8 @@ Based on [Matt Callow's](https://github.com/mattcallow/CPC_PICOROM) original des
 - 3-Dec-2024: PCBs arrived (eight working days)
 
 ## Instructions
-Please refer to Matt's page for firmware & instructions on how to initialise the Pico & transfer/use Amstrad CPC ROMs.
+Please refer to Matt's page for firmware & instructions on how to initialise the Pico & transfer/use Amstrad CPC ROMs.<br>
+ROMs can be found [here](https://www.cpcwiki.eu/index.php/ROM_List).
 
 ## Parts
 - Raspberry Pi Pico
