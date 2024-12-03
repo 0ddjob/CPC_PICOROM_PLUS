@@ -2,10 +2,13 @@
 Based on [Matt Callow's](https://github.com/mattcallow/CPC_PICOROM) original design for the CPC.
 
 ## Current Status: UNTESTED!
-18-Nov-2024: initial design done
+- 18-Nov-2024: initial design done
+- 20-Nov-2024: test PCBs on their way from PCBWAY
+- 3-Dec-2024: Initial testing ... not working!  (not really a surprise)
 
 ## Instructions
-Please refer to Matt's page for firmware & instructions on how to initialise the Pico & transfer/use Amstrad CPC ROMs.
+Please refer to Matt's page for firmware & instructions on how to initialise the Pico & transfer/use Amstrad CPC ROMs.<br>
+ROMs can be found [here](https://www.cpcwiki.eu/index.php/ROM_List).
 
 ## Parts
 - Raspberry Pi Pico
@@ -16,7 +19,7 @@ Please refer to Matt's page for firmware & instructions on how to initialise the
 ## Design
 Designed using Kicad.<br>
 Files, including Gerbers for production, can be found [here.](/Hardware/)<br>
-Centronics connector [Kicad symbol.](/Hardware/Centronics_Connector/)<br>
+Centronics connector [Kicad symbol.](/Hardware/Centronics_Connector/)  I also made a custom version with signal names on the pins (see schematic image below).<br>
 Raspberry Pi Pico [Kicad symbol.](https://github.com/ncarandini/KiCad-RP-Pico)<br>
 
 ![Schematic](/CPC_PICOROM_PLUS_Schematic.png)
