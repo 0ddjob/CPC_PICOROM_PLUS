@@ -176,6 +176,187 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -3415,7 +3596,7 @@
 			)
 		)
 	)
-	(global_label "Vcc"
+	(global_label "ROMDIS"
 		(shape input)
 		(at 176.53 29.21 90)
 		(fields_autoplaced yes)
@@ -3427,7 +3608,7 @@
 		)
 		(uuid "264345b7-658f-4534-9a7e-6e28e3a552bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 22.959 90)
+			(at 176.53 19.0886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3752,7 @@
 	)
 	(global_label "~{BRST}"
 		(shape input)
-		(at 44.45 114.3 180)
+		(at 39.37 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3581,7 +3762,7 @@
 		)
 		(uuid "7085efaa-d39d-497e-a660-3d00c9df06c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.7477 114.3 0)
+			(at 31.6677 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +3840,7 @@
 	)
 	(global_label "RUN"
 		(shape input)
-		(at 44.45 99.06 180)
+		(at 39.37 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3669,7 +3850,7 @@
 		)
 		(uuid "92f2af5c-cce3-44b8-872b-e8c23052fdd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.5338 99.06 0)
+			(at 32.4538 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +3906,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 54.61 99.06 0)
+		(at 49.53 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3735,7 +3916,7 @@
 		)
 		(uuid "a29aab94-9d52-4111-8e56-1e0a83dcf0ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.4657 99.06 0)
+			(at 56.3857 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,6 +3970,28 @@
 			)
 		)
 	)
+	(global_label "ROMDIS"
+		(shape input)
+		(at 40.64 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa108359-046e-45bb-8a13-9932b609b498")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.5186 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{WR}"
 		(shape input)
 		(at 163.83 29.21 90)
@@ -3835,7 +4038,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 54.61 114.3 0)
+		(at 49.53 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3845,7 +4048,7 @@
 		)
 		(uuid "b98b84b5-4f00-49ce-acd7-c1e503163d20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.4657 114.3 0)
+			(at 56.3857 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,6 +4124,28 @@
 			)
 		)
 	)
+	(global_label "Vcc"
+		(shape input)
+		(at 48.26 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0349dc2-67e9-407b-9f93-20bab197e379")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.511 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{IORQ}"
 		(shape input)
 		(at 100.33 63.5 0)
@@ -3966,6 +4191,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 44.45 119.38 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33fec1ba-b488-4207-a2e9-3f47537ab0c1")
+		(property "Reference" "JP1"
+			(at 44.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Disable Internal ROMs"
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 44.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 44.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "774023ad-4973-4643-8441-c9ed59945b30")
+		)
+		(pin "2"
+			(uuid "8ab73b04-5f04-4150-8688-9f024eefb3a4")
+		)
+		(instances
+			(project ""
+				(path "/780471bc-da6b-4080-aa3c-e3b05bfc0aa2"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cluelessengineer:Pico")
 		(at 49.53 48.26 0)
 		(unit 1)
@@ -3991,7 +4284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CluelessEngineer:RPi_Pico_SMD_TH"
+		(property "Footprint" "Clueless_Engineer:RPi_Pico_SMD_TH"
 			(at 49.53 48.26 90)
 			(effects
 				(font
@@ -4244,7 +4537,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 49.53 114.3 0)
+		(at 44.45 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4253,7 +4546,7 @@
 		(fields_autoplaced yes)
 		(uuid "8169b62a-559e-40fc-9ba2-f439427f3526")
 		(property "Reference" "SW2"
-			(at 49.53 106.68 0)
+			(at 44.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,15 +4554,15 @@
 			)
 		)
 		(property "Value" "CPC Reset"
-			(at 49.53 109.22 0)
+			(at 44.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "My_Components:Switch_Tactile_6mm"
-			(at 49.53 109.22 0)
+		(property "Footprint" "Clueless_Engineer:Switch_Tactile_6mm"
+			(at 44.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 109.22 0)
+			(at 44.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4580,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 114.3 0)
+			(at 44.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4691,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 49.53 99.06 0)
+		(at 44.45 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4407,7 +4700,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7ccc191-22e3-409c-99aa-dc21a573a3c7")
 		(property "Reference" "SW1"
-			(at 49.53 91.44 0)
+			(at 44.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,15 +4708,15 @@
 			)
 		)
 		(property "Value" "Pico Reset"
-			(at 49.53 93.98 0)
+			(at 44.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "My_Components:Switch_Tactile_6mm"
-			(at 49.53 93.98 0)
+		(property "Footprint" "Clueless_Engineer:Switch_Tactile_6mm"
+			(at 44.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 93.98 0)
+			(at 44.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 99.06 0)
+			(at 44.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +4956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CluelessEngineer:111050113L001"
+		(property "Footprint" "Clueless_Engineer:111050113L001_Amstrad_Plus"
 			(at 187.96 131.75 0)
 			(effects
 				(font
