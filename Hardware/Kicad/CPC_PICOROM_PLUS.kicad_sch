@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "CPC PicoROM Plus")
-		(date "18-Nov-2024")
-		(rev "1.1-0")
+		(date "13-Dec-2024")
+		(rev "1.2-0")
 		(company "Brett Hallen")
 		(comment 1 "https://github.com/0ddjob/CPC_PICOROM")
 		(comment 3 "https://github.com/mattcallow/CPC_PICOROM")
